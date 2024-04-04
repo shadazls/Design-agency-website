@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../../public/assets/fonts/jost.regular.ttf') format('truetype');
+    font-weight: 400;
+}
+  
+@font-face {
+    font-family: 'Jost';
+    src: url('../../public/assets/fonts/jost.medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../../public/assets/fonts/jost.semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+:root {
+    --peach: hsl(11, 73%, 66%);
+    --light-peach: hsl(11, 100%, 80%);
+    --black: hsl(270, 3%, 11%);
+    --dark-gray: hsl(264, 5%, 20%);
+    --light-gray: hsl(210, 17%, 95%);
+    --white: hsl(0, 0%, 100%);
+}
+
+input:focus, input:active, textarea:focus, textarea:active{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.bg-color-peach {
+    background-color: var(--peach);
+}
+
+.color-peach {
+    color: var(--peach);
+}
+
+.bg-color-gray {
+    background-color: #fdf3f0;
+}
+
+.bg-color-light-peach {
+    background-color: var(--light-peach);
+}
+
+.bg-color-locations {
+    background-color: #fdf3f0;
+}
+
+.color-light-peach {
+    color: var(--light-peach);
+}
+
+.bg-color-black {
+    background-color: var(--black);
+
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-dark-gray {
+    color: var(--dark-gray);
+}
+
+.color-light-gray {
+    color: var(--light-gray);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.wide-letter-spacing {
+    letter-spacing: 0.125em;
+}
+
+.nav-items:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-items:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 600px;
+    height: 594px;
+    width: 1006px;
+    z-index: -1;
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-leaf.svg);
+}
+
+#hero-container {
+    background-image: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.h-big {
+    height: 40rem;
+}
+
+.h-less-big {
+    height: 30rem;
+}
+
+.hero-container::after {
+    content: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+    position: absolute; 
+    top: 0px;
+}
+
+.h-phone {
+    height: 57rem;
+}
+
+.hover-effect:hover  {
+    background-color: #ffad9b;
+}
+
+#web-design-projects {
+    background-image: url(../../public/assets/home/desktop/image-web-design-large.jpg);
+}
+
+#app-design-projects {
+    background-image: url(../../public/assets/home/desktop/image-app-design.jpg);
+}
+
+#graphic-design-projects {
+    background-image: url(../../public/assets/home/desktop/image-graphic-design.jpg);
+}
+
+.view-projects:after {    
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.view-projects:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.peach:hover {
+    background-color: var(--peach);
+}
+
+.skill-section::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 1870px;
+    height: 594px;
+    width: 1006px;
+    z-index: -1;
+    transform: scale(-1);
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-leaf.svg);
+}
+
+.wider-letter-spacing {
+    letter-spacing: 0.3em;
+}
+
+.gray-color {
+    color: #333136;
+}
+
+.rotation-passionate-background {
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+    transform: scaleX(-1) rotate(90deg);
+}
+
+.rotation-resourceful-background {
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+    transform: rotate(180deg);
+}
+
+.rotation-friendly-background {
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+}
+
+.chevauchement-contact {
+    bottom: -91rem;
+}
+
+.chevauchement-about {
+    bottom: -137rem;
+}
+
+.chevauchement-location {
+    bottom: -35rem;
+}
+
+.nav-items-white:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-items-white:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.form-item {
+    font-family: Jost;
+    width: 380px;
+    height: 49px;
+}
+
+input,
+textarea {
+    transition: all 0.1s ease;
+    padding-left: 15px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 3px solid white !important;
+    transition: all 0.1s ease !important;
+}
+
+/* .form-item > p.active {
+    display: block;
+    pointer-events: none;
+}
+
+.form-item > p {
+    text-align: right;
+    padding-right: 36px;
+    position: relative;
+    font-weight: 400;
+    z-index: 1;
+    display: none;
+    font-style: italic;
+    pointer-events: none;
+} */
+
+.form-item > p::after {
+    content: "";
+    position: absolute;
+    top: unset;
+    right: 8px;
+    bottom: unset;
+    left: unset;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../public/assets/contact/desktop/icon-error.svg);
+}

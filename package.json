@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles.css --watch",
+    "watch": "watch \"npm run build-css\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
