@@ -997,7 +997,7 @@ video {
 @font-face {
   font-family: 'Jost';
 
-  src: url('../../public/assets/fonts/jost.regular.ttf') format('truetype');
+  src: url('./assets/fonts/jost.regular.ttf') format('truetype');
 
   font-weight: 400;
 }
