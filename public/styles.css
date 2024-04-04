@@ -1005,7 +1005,7 @@ video {
 @font-face {
   font-family: 'Jost';
 
-  src: url('../../public/assets/fonts/jost.medium.ttf') format('truetype');
+  src: url('./assets/fonts/jost.medium.ttf') format('truetype');
 
   font-weight: 500;
 }
@@ -1013,7 +1013,7 @@ video {
 @font-face {
   font-family: 'Jost';
 
-  src: url('../../public/assets/fonts/jost.semibold.ttf') format('truetype');
+  src: url('./assets/fonts/jost.semibold.ttf') format('truetype');
 
   font-weight: 600;
 }
@@ -1113,11 +1113,11 @@ body {
   height: 594px;
   width: 1006px;
   z-index: -1;
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-leaf.svg);
+  background-image: url(./assets/shared/desktop/bg-pattern-leaf.svg);
 }
 
 #hero-container {
-  background-image: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+  background-image: url(./assets/home/desktop/bg-pattern-hero-home.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -1131,7 +1131,7 @@ body {
 }
 
 .hero-container::after {
-  content: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+  content: url(./public/assets/home/desktop/bg-pattern-hero-home.svg);
   position: absolute;
   top: 0px;
 }
@@ -1145,15 +1145,15 @@ body {
 }
 
 #web-design-projects {
-  background-image: url(../../public/assets/home/desktop/image-web-design-large.jpg);
+  background-image: url(./assets/home/desktop/image-web-design-large.jpg);
 }
 
 #app-design-projects {
-  background-image: url(../../public/assets/home/desktop/image-app-design.jpg);
+  background-image: url(./assets/home/desktop/image-app-design.jpg);
 }
 
 #graphic-design-projects {
-  background-image: url(../../public/assets/home/desktop/image-graphic-design.jpg);
+  background-image: url(./assets/home/desktop/image-graphic-design.jpg);
 }
 
 .view-projects:after {
@@ -1185,7 +1185,7 @@ body {
   width: 1006px;
   z-index: -1;
   transform: scale(-1);
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-leaf.svg);
+  background-image: url(./assets/shared/desktop/bg-pattern-leaf.svg);
 }
 
 .wider-letter-spacing {
@@ -1197,17 +1197,17 @@ body {
 }
 
 .rotation-passionate-background {
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+  background-image: url(./assets/shared/desktop/bg-pattern-small-circle.svg);
   transform: scaleX(-1) rotate(90deg);
 }
 
 .rotation-resourceful-background {
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+  background-image: url(./assets/shared/desktop/bg-pattern-small-circle.svg);
   transform: rotate(180deg);
 }
 
 .rotation-friendly-background {
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+  background-image: url(./assets/shared/desktop/bg-pattern-small-circle.svg);
 }
 
 .chevauchement-contact {
@@ -1281,7 +1281,7 @@ input:focus, textarea:focus {
   left: unset;
   width: 20px;
   height: 20px;
-  background-image: url(../../public/assets/contact/desktop/icon-error.svg);
+  background-image: url(./assets/contact/desktop/icon-error.svg);
 }
 
 .placeholder\:text-base::-moz-placeholder {
