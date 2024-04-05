@@ -158,12 +158,10 @@ body {
 
 #app-design-projects {
     background-image: url(./assets/home/desktop/image-app-design.jpg);
-    background-size: cover;
 }
 
 #graphic-design-projects {
     background-image: url(./assets/home/desktop/image-graphic-design.jpg);
-    background-size: cover;
 }
 
 .view-projects:after {    
