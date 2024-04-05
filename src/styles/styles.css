@@ -308,3 +308,39 @@ input:focus, textarea:focus {
 .project:hover h2 {
     color: white;
 }
+
+#contact-container {
+    background-image: url(./assets/shared/desktop/bg-pattern-call-to-action.svg) !important;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#contact-us-container {
+    background-image: url(./assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+#about-us-container {
+    background-image: url(./assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-position: top -10rem left;
+    background-repeat: no-repeat;
+}
+
+.single-location-container {
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-two-circles.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.social-icon .icon {
+    transition: 0.3s ease;
+}
+
+.social-icon:hover .icon {
+    filter: grayscale(100%) hue-rotate(180deg);
+    scale: 1.3;
+    /* rotate: 90deg; */
+    /* transform: skew(20deg, 20deg); */
+    /* transform: matrix(1, 0.1, 0.1, 1, 0, 0); */
+    transform: translate(0, -10px);
+}
