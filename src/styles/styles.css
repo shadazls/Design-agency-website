@@ -75,6 +75,10 @@ input:focus, input:active, textarea:focus, textarea:active{
     color: var(--dark-gray);
 }
 
+.bg-color-light-gray {
+    background-color: var(--light-gray);
+}
+
 .color-light-gray {
     color: var(--light-gray);
 }
@@ -149,14 +153,17 @@ body {
 
 #web-design-projects {
     background-image: url(./assets/home/desktop/image-web-design-large.jpg);
+    background-size: cover;
 }
 
 #app-design-projects {
     background-image: url(./assets/home/desktop/image-app-design.jpg);
+    background-size: cover;
 }
 
 #graphic-design-projects {
     background-image: url(./assets/home/desktop/image-graphic-design.jpg);
+    background-size: cover;
 }
 
 .view-projects:after {    
@@ -225,6 +232,10 @@ body {
     bottom: -35rem;
 }
 
+.chevauchement-web-design {
+    bottom: -78rem;
+}
+
 .nav-items-white:after {    
     bottom: 0;
     content: "";
@@ -285,4 +296,17 @@ input:focus, textarea:focus {
     width: 20px;
     height: 20px;
     background-image: url(./assets/contact/desktop/icon-error.svg);
+}
+
+.project h2 {
+    color: var(--peach);
+}
+
+.project:hover {
+    background-color: var(--peach);
+    color: white !important;
+}
+
+.project:hover h2 {
+    color: white;
 }
