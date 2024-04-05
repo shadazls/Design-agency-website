@@ -1,133 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Designo Website for training.">
-    <link rel="stylesheet" href="../../public/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Designo Agency Website</title>
-</html>
-<body class="w-screen">
-    <header class="">
-        <nav class="flex justify-between items-center w-3/5 mx-auto my-12">
-            <a href="../../index.html">
-                <img class="h-6" src="../../public/assets/shared/desktop/logo-dark.png" alt="Designo Logo">
-            </a>
-            <ul class="flex gap-10">
-                <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./about.html">Our Company</a></li>
-                <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./locations.html">Locations</a></li>
-                <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Designo Website for training.">
+        <link rel="stylesheet" href="../../public/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Designo Agency Website</title>
+    </head>
 
-    <main class="flex flex-col gap-10">
-        <section class="app-design mb-24">
-            <div id="app-design-container" class="w-3/5 h-64 flex flex-col justify-center items-center mx-auto rounded-2xl bg-color-peach mt-10 overflow-hidden gap-10">
-                <h1 id="app-design-title" class="color-white font-medium text-5xl">Graphic Design</h1>
-                <p id="app-design-description" class="color-white text-base">We deliver eye-catching branding materials that are tailored to meet your business objectives.</p>
-            </div>
-        </section>
-
-        <section class="my-14">
-            <div class="grid grid-cols-3 gap-10 w-3/5 mx-auto">
-                <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
-                    <picture>
-                        <source>
-                        <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-change.jpg" alt="Image Change Preview">
-                    </picture>
-                    <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
-                        <h2 class="font-medium text-xl uppercase wider-letter-spacing duration-300">Change</h2>
-                        <p>A really nice graphism about design</p>
-                    </div>
-                </div>
-                <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
-                    <picture>
-                        <source>
-                        <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-boxed-water.jpg" alt="Boxed-Water Site Preview">
-                    </picture>
-                    <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
-                        <h2 class="font-medium text-xl uppercase wider-letter-spacing">Boxed Water</h2>
-                        <p>A really nice graphism about boxed-wated</p>
-                    </div>
-                </div>
-                <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
-                    <picture>
-                        <source>
-                        <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-science.jpg" alt="Science Graphic Preview">
-                    </picture>
-                    <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
-                        <h2 class="font-medium text-xl uppercase wider-letter-spacing">Image Science</h2>
-                        <p>A realle nice graphism about science</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mt-14 mb-20">
-            <div class="grid grid-cols-2 gap-10 w-3/5 mx-auto h-80">
-                <div id="app-design-projects" class="bg-cover flex flex-col items-center justify-center rounded-2xl gap-7 relative">
-                    <div class="absolute inset-0 bg-black opacity-50 rounded-2xl peach duration-300"></div>
-                    <h2 class="relative color-white text-5xl font-medium uppercase pointer-events-none">App Design</h2>
-                    <a href="./app-design.html" class="color-white text-base font-medium uppercase relative view-projects">View Projects</a>
-                </div>
-                <div id="web-design-projects" class="bg-cover flex flex-col items-center justify-center rounded-2xl gap-7 relative w-full">
-                    <div class="absolute inset-0 bg-black opacity-50 rounded-2xl peach duration-300"></div>
-                    <h2 class="relative color-white text-5xl font-medium uppercase pointer-events-none">Web Design</h2>
-                    <a href="./web-design.html" class="color-white text-base font-medium uppercase relative view-projects">View Projects</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="mt-14 mb-20">
-            <div id="contact-container" class="absolute w-3/5 h-72 flex items-center justify-between mx-auto px-20 py-10 bg-color-peach rounded-2xl test chevauchement-web-design left-0 right-0 z-10">
-                <div id="contact-left-container" class="w-1/2 flex flex-col gap-5">
-                    <h4 class="color-white font-medium text-4xl">Let’s talk about <br>your project</h4>
-                    <p class="color-white font-medium text-base">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
-                </div>
-                <a href="./src/pages/contact.html" class="flex items-center justify-center uppercase font-medium text-base bg-white rounded-lg w-40 h-14 hover-effect hover:text-white transition duration-500 ease-in-out">Get in touch</a>
-                
-            </div>
-        </section>
-    </main>
-
-    <footer class="mt-28 bg-color-black h-96 mx-auto relative">
-        <div id="footer-top-container" class="h-1/2 w-3/5 flex mx-auto">
-            <nav class="flex justify-between mt-32 w-full ">
+    <body class="w-screen">
+        <header class="">
+            <nav class="flex justify-between items-center w-3/5 mx-auto my-12">
                 <a href="../../index.html">
-                    <img class="h-6" src="../../public/assets/shared/desktop/logo-light.png" alt="Designo Logo">
+                    <img class="h-6" src="../../public/assets/shared/desktop/logo-dark.png" alt="Designo Logo">
                 </a>
-                
-                <ul class="flex justify-end gap-10">
-                    <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./about.html">Our Company</a></li>
-                    <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./locations.html">Locations</a></li>
-                    <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./contact.html">Contact</a></li>
+                <ul class="flex gap-10">
+                    <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./about.html">Our Company</a></li>
+                    <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./locations.html">Locations</a></li>
+                    <li><a class="nav-items text-sm wide-letter-spacing color-black relative inline-block py-2 px-2 uppercase" href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-        <hr class="mx-auto my-4 w-3/5 opacity-10">
-        <div id="footer-bottom-container" class="h-1/3 w-3/5 mx-auto">
-            <div class="flex justify-between">
-                <div id="location" class="flex flex-col gap-1">
-                    <p class="font-semibold color-white opacity-50">Designo Central Office</p>
-                    <p class="color-white opacity-50">3886 Wellington Street</p>
-                    <p class="color-white opacity-50">Toronto, Ontario M9C 3J5</p>
+        </header>
+
+        <main class="flex flex-col gap-10">
+            <section class="app-design mb-24">
+                <div id="app-design-container" class="w-3/5 h-64 flex flex-col justify-center items-center mx-auto rounded-2xl bg-color-peach mt-10 overflow-hidden gap-10">
+                    <h1 id="app-design-title" class="color-white font-medium text-5xl">Graphic Design</h1>
+                    <p id="app-design-description" class="color-white text-base">We deliver eye-catching branding materials that are tailored to meet your business objectives.</p>
                 </div>
-                <div id="contact" class="flex flex-col gap-1">
-                    <p class="font-semibold color-white opacity-50">Contact Us (Central Office)</p>
-                    <p class="color-white opacity-50">P : +1 253-863-8967</p>
-                    <p class="color-white opacity-50">M : contact@designo.com</p>
+            </section>
+
+            <section class="my-14">
+                <div class="grid grid-cols-3 gap-10 w-3/5 mx-auto">
+                    <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
+                        <picture>
+                            <source>
+                            <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-change.jpg" alt="Image Change Preview">
+                        </picture>
+                        <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
+                            <h2 class="font-medium text-xl uppercase wider-letter-spacing duration-300">Change</h2>
+                            <p>A really nice graphism about design</p>
+                        </div>
+                    </div>
+                    <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
+                        <picture>
+                            <source>
+                            <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-boxed-water.jpg" alt="Boxed-Water Site Preview">
+                        </picture>
+                        <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
+                            <h2 class="font-medium text-xl uppercase wider-letter-spacing">Boxed Water</h2>
+                            <p>A really nice graphism about boxed-wated</p>
+                        </div>
+                    </div>
+                    <div class="project flex flex-col bg-color-gray cursor-pointer duration-300 rounded-2xl">
+                        <picture>
+                            <source>
+                            <img class="rounded-t-2xl" src="../../public/assets/graphic-design/desktop/image-science.jpg" alt="Science Graphic Preview">
+                        </picture>
+                        <div class="h-36 flex flex-col justify-center text-center rounded-b-2xl p-10">
+                            <h2 class="font-medium text-xl uppercase wider-letter-spacing">Image Science</h2>
+                            <p>A realle nice graphism about science</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="mt-14">
-                    <div id="social-media" class="flex gap-5">
-                        <a class="" href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-facebook.svg" alt="Facebook Icon"></a>
-                        <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-youtube.svg" alt="Youtube Icon"></a>
-                        <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-twitter.svg" alt="Twitter Icon"></a>
-                        <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-pinterest.svg" alt="Pinterest Icon"></a>
-                        <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-instagram.svg" alt="Instagram Icon"></a>
+            </section>
+
+            <section class="mt-14 mb-20">
+                <div class="grid grid-cols-2 gap-10 w-3/5 mx-auto h-80">
+                    <div id="app-design-projects" class="bg-cover flex flex-col items-center justify-center rounded-2xl gap-7 relative">
+                        <div class="absolute inset-0 bg-black opacity-50 rounded-2xl peach duration-300"></div>
+                        <h2 class="relative color-white text-5xl font-medium uppercase pointer-events-none">App Design</h2>
+                        <a href="./app-design.html" class="color-white text-base font-medium uppercase relative view-projects">View Projects</a>
+                    </div>
+                    <div id="web-design-projects" class="bg-cover flex flex-col items-center justify-center rounded-2xl gap-7 relative w-full">
+                        <div class="absolute inset-0 bg-black opacity-50 rounded-2xl peach duration-300"></div>
+                        <h2 class="relative color-white text-5xl font-medium uppercase pointer-events-none">Web Design</h2>
+                        <a href="./web-design.html" class="color-white text-base font-medium uppercase relative view-projects">View Projects</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-14 mb-20">
+                <div id="contact-container" class="absolute w-3/5 h-72 flex items-center justify-between mx-auto px-20 py-10 bg-color-peach rounded-2xl test chevauchement-web-design left-0 right-0 z-10">
+                    <div id="contact-left-container" class="w-1/2 flex flex-col gap-5">
+                        <h4 class="color-white font-medium text-4xl">Let’s talk about <br>your project</h4>
+                        <p class="color-white font-medium text-base">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+                    </div>
+                    <a href="./src/pages/contact.html" class="flex items-center justify-center uppercase font-medium text-base bg-white rounded-lg w-40 h-14 hover-effect hover:text-white transition duration-500 ease-in-out">Get in touch</a>
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-28 bg-color-black h-96 mx-auto relative">
+            <div id="footer-top-container" class="h-1/2 w-3/5 flex mx-auto">
+                <nav class="flex justify-between mt-32 w-full ">
+                    <a href="../../index.html">
+                        <img class="h-6" src="../../public/assets/shared/desktop/logo-light.png" alt="Designo Logo">
+                    </a>
+                    
+                    <ul class="flex justify-end gap-10">
+                        <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./about.html">Our Company</a></li>
+                        <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./locations.html">Locations</a></li>
+                        <li><a class="nav-items-white text-sm wide-letter-spacing color-white relative inline-block py-2 px-2 uppercase" href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr class="mx-auto my-4 w-3/5 opacity-10">
+            <div id="footer-bottom-container" class="h-1/3 w-3/5 mx-auto">
+                <div class="flex justify-between">
+                    <div id="location" class="flex flex-col gap-1">
+                        <p class="font-semibold color-white opacity-50">Designo Central Office</p>
+                        <p class="color-white opacity-50">3886 Wellington Street</p>
+                        <p class="color-white opacity-50">Toronto, Ontario M9C 3J5</p>
+                    </div>
+                    <div id="contact" class="flex flex-col gap-1">
+                        <p class="font-semibold color-white opacity-50">Contact Us (Central Office)</p>
+                        <p class="color-white opacity-50">P : +1 253-863-8967</p>
+                        <p class="color-white opacity-50">M : contact@designo.com</p>
+                    </div>
+                    <div class="mt-14">
+                        <div id="social-media" class="flex gap-5">
+                            <a class="" href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-facebook.svg" alt="Facebook Icon"></a>
+                            <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-youtube.svg" alt="Youtube Icon"></a>
+                            <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-twitter.svg" alt="Twitter Icon"></a>
+                            <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-pinterest.svg" alt="Pinterest Icon"></a>
+                            <a href="https://github.com/shadazls?tab=repositories"><img src="../../public/assets/shared/desktop/icon-instagram.svg" alt="Instagram Icon"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
+</html>
