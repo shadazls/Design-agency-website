@@ -626,12 +626,12 @@ video {
   margin-bottom: 3.5rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mt-10 {
@@ -1264,7 +1264,7 @@ body {
 }
 
 .chevauchement-web-design {
-  bottom: -78rem;
+  bottom: -90rem;
 }
 
 .nav-items-white:after {
